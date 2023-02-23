@@ -10,3 +10,13 @@ def index(request):
 def about(request):
     # return HttpResponse("<h1>ABOUT</h1>")
     return render(request, 'about.html')
+
+
+def pricing(request):
+    # return HttpResponse("<h1>PRICING</h1>")
+    return render(request, 'pricing.html')
+
+
+def contact(request):
+    # return HttpResponse("<h1>CONTACT</h1>")
+    return render(request, 'contact.html')
